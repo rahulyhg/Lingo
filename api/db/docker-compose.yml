@@ -1,0 +1,21 @@
+version: "2"
+
+services:
+  app:
+    build: .
+    volumes:
+      - .:/var/www/html
+    working_dir: /var/www/html
+    stdin_open: true
+    tty: true
+
+  db:
+    image: mariadb
+    restart: always
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: julie
+      MYSQL_DATABASE: julie
+    ports:
+      - 3306:3306

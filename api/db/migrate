@@ -1,0 +1,2 @@
+diff oldDump.sql newDump.sql > $1.sql
+cp newDump.sql oldDump.sql

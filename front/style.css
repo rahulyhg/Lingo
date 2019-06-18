@@ -1,0 +1,36 @@
+	.MyBookDetailSentencesPartsContainerPartCell > div {
+		display: inline-block;
+	}
+	.MyBookDetailSentencesPartsContainerPartCellParts {
+		display: inline-block;
+	}
+	.MyBookDetailSentencesPartsContainerPartCellParts {
+		border-top: 1px solid black;
+	}
+	.MyBookDetailSentencesPartsContainerPartCellParts {
+		padding-top: 5px;
+	}
+	.MyBookDetailSentencesPartsContainerPartCellParts {
+		margin-top: 5px;
+	}
+	.MyBookDetailSentencesPartsContainerPartCellParts {
+		padding-right: 10px;
+	}
+	.MyBookDetailSentencesPartsContainerPartCellParts {
+		cursor: pointer;
+	}
+	.MyBookDetailSentencesPartsContainerPartCellParts:hover {
+		color: red;
+	}
+	.MyBookDetailSentencesPartsContainerPartCellPartsOriginal {
+		font-weight: bold;
+	}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
